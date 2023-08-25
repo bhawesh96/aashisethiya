@@ -744,7 +744,7 @@ section {
 .services .title {
   margin-left: 80px;
   font-weight: 700;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   font-size: 18px;
 }
 
@@ -756,9 +756,14 @@ section {
   color: #149ddd;
 }
 
+.services .issuer {
+  margin-left: 80px;
+  font-size: 14px;
+}
+
 .services .description {
   margin-left: 80px;
-  line-height: 24px;
+  line-height: 20px;
   font-size: 14px;
 }
 
