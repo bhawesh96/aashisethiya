@@ -181,6 +181,7 @@ h6 {
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
+  cursor: pointer;
 }
 
 .nav-menu a i,
@@ -539,6 +540,23 @@ section {
   top: 0;
   background: #fff;
   border: 2px solid #1f5297;
+}
+
+.resume .resume-item p a {
+  color: black;
+  text-decoration: underline;
+}
+
+.resume .download-pdf {
+  background: #149ddd;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+  width: 200px;
+  margin: auto;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
