@@ -269,7 +269,7 @@
         to_email: 'bhansalibhawesh85@gmail.com'
     })
     $.ajax({        
-        url: "https://wlem42r1c3.execute-api.us-east-1.amazonaws.com/defaul",
+        url: "https://wlem42r1c3.execute-api.us-east-1.amazonaws.com/default",
         type: "POST",
         crossDomain: true,
         data: json_data,
@@ -284,7 +284,7 @@
         console.log("Success");
         console.log(data);
         document.querySelector('.loading').classList.remove('d-block');
-        if (true || data.message == "success") {
+        if (data.message == "success") {
           document.querySelector('.sent-message').classList.add('d-block');
           $('#contact-form').trigger("reset");
           setTimeout(() => {
@@ -302,15 +302,10 @@
     });
 
   function displayError() {
-    document.querySelector('.sent-message').classList.add('d-block');
-          $('#contact-form').trigger("reset");
-          setTimeout(() => {
-            document.querySelector('.sent-message').classList.remove('d-block');
-          }, 3000); // 3000 milliseconds = 3 seconds
-    // let error = "Sorry, could not send your message.";
-    // document.querySelector('.loading').classList.remove('d-block');
-    // document.querySelector('.error-message').innerHTML = error;
-    // document.querySelector('.error-message').classList.add('d-block');
+    let error = "Sorry, could not send your message.";
+    document.querySelector('.loading').classList.remove('d-block');
+    document.querySelector('.error-message').innerHTML = error;
+    document.querySelector('.error-message').classList.add('d-block');
   }
 
 });
