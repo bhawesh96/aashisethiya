@@ -293,6 +293,12 @@ h6 {
   }
 }
 
+@media (max-width: 1200px) {
+  #hero {
+    background-position: -576px 0px;
+  }
+}
+
 @media (max-width: 768px) {
   #hero {
     background-position: -576px 0px;
@@ -556,6 +562,7 @@ section {
   border-radius: 4px;
   width: 200px;
   margin: auto;
+  margin-top: 2.5em;
   text-align: center;
 }
 
