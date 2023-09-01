@@ -266,7 +266,7 @@
         email: $('#email').val(),
         phone: $('#phone').val(),
         message: $('#message').val(),
-        to_email: 'bhansalibhawesh85@gmail.com'
+        to_email: 'aashiyasethiya@gmail.com'
     })
     $.ajax({        
         url: "https://wlem42r1c3.execute-api.us-east-1.amazonaws.com/default",
