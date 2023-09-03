@@ -172,6 +172,10 @@ h6 {
   white-space: nowrap;
 }
 
+.nav-menu>ul>li:last-child {
+  margin-bottom: 50px;
+}
+
 .nav-menu a,
 .nav-menu a:focus {
   display: flex;
